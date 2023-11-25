@@ -1,4 +1,4 @@
-# [Sampler](https://github.com/sqshq/sampler)使用指南 --- SamplerUsageGuid
+# [Sampler](https://github.com/sqshq/sampler)使用指南 --- SamplerUsageGuide
 
 ## Sparkline获得CPU usage和RAM usage
 配置文件如下
