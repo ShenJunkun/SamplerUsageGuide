@@ -1,0 +1,12 @@
+sparklines:
+  - title: CPU usage
+    rate-ms: 200
+    scale: 0
+    # 把所有的CPU使用率加起来
+    sample: ps -A -o %cpu | awk '{s+=$1} END {print s}'
+  - title: RAM usage
+    rate-ms: 200
+    scale: 0
+    # 以百分比的形式查看内存使用率
+    sample: free | awk '/Mem/{printf "%.2f", $3/$2 * 100}'
+    # 
